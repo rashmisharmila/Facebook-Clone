@@ -1,0 +1,261 @@
+.HomePage{
+
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+}
+.rightSide{
+    
+    height: 100rem;
+    width: 21%;
+    left:0;
+    flex-wrap: wrap;
+    padding-left: 16px;
+}
+.profileImage{
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.pro >img{
+    display: flex;
+    border-radius: 75%;
+    background-size: auto;
+    background-position: 0 - 296px;
+}
+.SideNavi{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 330;
+    padding: 8px 16px;
+}
+.SideNavi >div{
+    margin: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+.rightSideIcon{
+    background-size: auto;
+    width: 30px;
+    height: 30px;
+    background-position: 0 - 296px;
+    display: inline-block;
+    color: rgb(24, 119, 242);
+    padding: 5px;
+    margin: 5px;
+}
+.seeMore{
+    background-size: auto;
+    width: 30px;
+    height: 30px;
+    background-position: 0 - 296px;
+    display: inline-block;
+    color: black
+}
+.SideNaviSeeMore{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 550;
+    padding: 15px;
+    border-bottom: .1rem rgb(68, 62, 62) solid;
+}
+.Profiles{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 330;
+    padding: 8px 16px;
+}
+.Profiles >img{
+    margin: 5px;
+    align-items: center;
+}
+
+
+.LeftSide{
+    height: 50rem;
+    width: 21%;
+    left:0;
+    flex-wrap: wrap;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.contacts{
+    font-size: 1.6rem;
+    font-weight: 550;
+    padding-left: 1rem;
+    color: rgb(112, 110, 110);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+.chatIcon{
+    display: flex;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+.pages >img{
+    border-radius: 80%;
+    width: 10%;
+}
+
+.mainScreen{
+    display: grid;
+    width: 650px;
+    height: 60rem;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+.storyPart{
+    display: flex;
+    width: 550px;
+    margin: 20px 0;
+    color: white;
+    font-size: 1.5rem;
+    height:50px;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+.strory{
+    width: 170px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: rgb(135, 135, 136);
+   
+}
+
+.strory>img{
+    margin: 10px;
+}
+.mainPostContainer{
+    display: grid;
+    height: 25rem;
+    width:550px;
+    margin-left: 5%;
+}
+.post{
+    margin-top: 5%;
+    display: flex;
+    width: 550px;
+    justify-content: flex-start;
+    background-color: white;
+    margin-left: 0;
+}
+.post > div{
+    margin-left: 2px;
+}
+.post > img{
+    height: 45px;
+    border-radius: 50%;
+    width: 45px;
+    margin: 15px;
+    padding-top: 9px;
+}
+input[type=Mind]{
+    width: 450px;
+    margin: 20px 0;
+    height: 4rem;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius:20px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.Mind::placeholder{
+    margin: 2px;
+}
+.call{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    height: 5rem;
+    width: 550px;
+    background-color: white;
+}
+
+.ico{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    font-size: 1rem;
+}
+.posted{
+    display: grid;
+    height: auto;
+    width: 550px;
+    align-items: flex-start;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 15px;
+}
+.poster{
+    display: flex;
+    justify-content: space-between;
+}
+.simplilearn{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    align-items: center;
+}
+.update{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left:5px;
+    color: rgb(112, 110, 110);
+}
+.edit{
+    margin: 12px;
+}
+.caption{
+    font-size: 1.3rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-right: 150px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Like{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 20px;
+}
