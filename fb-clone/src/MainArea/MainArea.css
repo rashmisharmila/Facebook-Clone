@@ -150,6 +150,10 @@
 
 .strory>img{
     margin: 10px;
+    height: 50px; 
+    width: 50px; 
+    border-radius: 60%;
+    border: 4px solid rgb(24, 119, 242);
 }
 .mainPostContainer{
     display: grid;
@@ -241,10 +245,9 @@ input[type=Mind]{
     margin: 12px;
 }
 .caption{
-    font-size: 1.3rem;
     font-weight: 500;
     word-wrap: break-word;
-    padding-right: 150px;
+    padding-right: 370px;
 }
 .comment{
     display: flex;

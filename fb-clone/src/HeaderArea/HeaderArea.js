@@ -45,7 +45,7 @@ function HeaderArea() {
                         <FaBell fontSize="2rem"/>
                     </div>
                     <div className="pluss">
-                        <img src="./image3.jpg" alt="dp" style={{height:"30px", width:"60px"}}/>
+                        <img src="./image3.jpg" alt="dp" style={{height:"30px", width:"85px"}}/>
                     </div>
                 </div>
            </div>
